@@ -21,43 +21,14 @@
   background-color: #f6f0f6 !important;
 }
 
-.cardBack {
-  background-color: #f6f0f6 !important;
-}
-
-.topNavBar {
-  position: fixed;
+.parent {
+  position: relative;
   top: 0;
   left: 0;
-  z-index: 2;
-  width: 100%;
 }
-
-.no-blogs-message {
-  color: gray;
-  white-space: nowrap;
+.image1 {
+  position: absolute;
+  top: -85px;
+  left: 0;
+  float: left
 }
-
-.recent-blog {
-  cursor: pointer;
-}
-
-.blog-title-readonly {
-  display: grid;
-  grid-template-columns: 40px 1fr 40px;
-}
-.button-link {
-  background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-  width: 3rem !important;
-}
-
-.bookmark-symbol {
-  cursor: pointer;
-}
-
