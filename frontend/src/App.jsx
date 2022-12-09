@@ -24,7 +24,6 @@ class App extends React.Component {
         <h2>Components</h2>
         </div>
         <Draggable
-        axis="x"
         handle=".handle"
         defaultPosition={{x: 0, y: 0}}
         position={null}
@@ -39,7 +38,6 @@ class App extends React.Component {
       </Draggable>
 
       <Draggable
-        axis="x"
         handle=".handle"
         defaultPosition={{x: 0, y: 0}}
         position={null}
